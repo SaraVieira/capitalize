@@ -1,15 +1,16 @@
 {
   "name": "capitalize-it",
-  "description": "Sara",
+  "description": "Capitalize words and sentences",
   "version": "1.2.0",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "author": "SaraVieira",
-  "repository": "SaraVieira/Capitalize",
+  "repository": "https://github.com/SaraVieira/capitalize.git",
   "license": "MIT",
   "scripts": {
     "compile": "babel src --out-dir lib",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "prepublish": "run-s test compile",
+    "flow": "flow",
+    "prepublish": "run-s flow test compile",
     "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
   },
   "devDependencies": {
