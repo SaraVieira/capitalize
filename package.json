@@ -1,7 +1,7 @@
 {
   "name": "capitalize",
   "description": "Sara",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "src/index.js",
   "author": "SaraVieira",
   "repository": "SaraVieira/Capitalize",
