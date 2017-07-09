@@ -28,6 +28,9 @@ And include in your project:
 
 ```javascript
 import Capitalize from 'capitalize-it';
+
+
+Capitalize('what is up boy?');
 ```
 
 ## License
