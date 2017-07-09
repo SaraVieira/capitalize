@@ -1,7 +1,7 @@
 {
   "name": "capitalize-it",
   "description": "Capitalize words and sentences",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "lib/index.js",
   "author": "SaraVieira",
   "repository": "https://github.com/SaraVieira/capitalize.git",
