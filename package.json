@@ -1,0 +1,28 @@
+{
+  "name": "Capitalize",
+  "description": "Capitalize Words And Sentences",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "SaraVieira",
+  "repository": "SaraVieira/Capitalize",
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "prepublish": "run-s test compile",
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "*",
+    "coveralls": "*",
+    "flow-bin": "^0.49.1",
+    "isparta": "*",
+    "mocha": "*",
+    "publish-please": "^2.3.1",
+    "run-s": "^0.0.0",
+    "sinon": "*"
+  }
+}
