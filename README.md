@@ -1,5 +1,7 @@
 # Capitalize
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SaraVieira/capitalize.svg)](https://greenkeeper.io/)
+
 ![Build Status](https://img.shields.io/travis/SaraVieira/capitalize-it.svg)
 ![Coverage](https://img.shields.io/coveralls/SaraVieira/capitalize-it.svg)
 ![Downloads](https://img.shields.io/npm/dm/capitalize-it.svg)
