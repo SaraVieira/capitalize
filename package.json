@@ -22,7 +22,7 @@
     "coveralls": "*",
     "eslint": "^4.5.0",
     "eslint-config-flying-rocket": "^1.0.1",
-    "flow-bin": "^0.57.3",
+    "flow-bin": "^0.59.0",
     "isparta": "*",
     "mocha": "*",
     "npm-run-all": "^4.1.0",
