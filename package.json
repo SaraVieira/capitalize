@@ -20,7 +20,7 @@
     "babel-preset-env": "^1.6.0",
     "chai": "*",
     "coveralls": "*",
-    "eslint": "^4.5.0",
+    "eslint": "^5.0.0",
     "eslint-config-flying-rocket": "^1.0.1",
     "flow-bin": "^0.57.3",
     "isparta": "*",
